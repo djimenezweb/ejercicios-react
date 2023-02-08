@@ -5,6 +5,9 @@ import CalculateCircleArea from './components/calculateCircleArea/CalculateCircl
 import CelsiusToFahrenheit from './components/celsiusToFahrenheit/CelsiusToFahrenheit';
 import FahrenheitToCelsius from './components/fahrenheitToCelsius/FahrenheitToCelsius';
 import TotalPrice from './components/totalPrice/TotalPrice';
+import Counter from './components/counter/Counter';
+import Typewriter from './components/typewriter/Typewriter';
+import Slide from './components/slide/Slide';
 
 const App = () => {
 	return (
@@ -16,6 +19,9 @@ const App = () => {
 			<CelsiusToFahrenheit celsius={20} />
 			<FahrenheitToCelsius fahrenheit={68} />
 			<TotalPrice price={100} />
+			<Counter />
+			<Typewriter />
+			<Slide />
 		</>
 	);
 };
